@@ -1,0 +1,8 @@
+version: '3.4'
+services: 
+  smas-attention:
+    image: time-series-forecasting-service
+    ports:
+      - 8080:8080
+    volumes:
+      - ./app:/app
