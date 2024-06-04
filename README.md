@@ -1,7 +1,18 @@
 # Time series forecasting
 
+## Creating Conda environment from .yml file 
 
-## Summary Statistics of the Datasets:
+- The folder containes the timeseries.yml file
+- Use the 'create' command and link the yml to it. 
+- Replcae 'env with your enicornment name you want to create:
+
+    conda env create -f timeseries.yml
+
+- To use the environment, activate before running:
+
+    conda activate env
+
+# Summary Statistics of the Datasets:
 
 - Checked summary statistics (mean, median, min, max, etc.) for each dataset.
   
